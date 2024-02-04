@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e7e7e7;
+}
+
+header {
+    
+    padding: 16px 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+form {
+    padding: 10px;
+    text-align: center;
+}
+
+input, button {
+    background-color: #fff;
+    padding: 8px;
+}
+
+button {
+    background-color: #23aa08;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+ul li {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    
+
+}
+
+ul li.clicar {
+    text-decoration: line-through;
+}
+
